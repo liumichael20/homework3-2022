@@ -117,7 +117,6 @@ nav ul a:focus{
 .container{
   display:grid;
   grid-template-columns: 1fr 5fr 1fr;
-  
   row-gap: 30px;
   
 
@@ -128,6 +127,7 @@ nav ul a:focus{
 /*how to make fallback color?*/
 .intro{
   background-image: url("../images/header.jpg");
+  background-color: #DDDDDD;
   min-height: 400px;
   background-attachment: fixed;
   background-position: center;
@@ -182,7 +182,7 @@ img{
 /* Requirement 10 code here*/
 .text{
   align-self: center;
-  max-height: 25%;
+  text-size-adjust: 25%;
   overflow: scroll;
 }
 
